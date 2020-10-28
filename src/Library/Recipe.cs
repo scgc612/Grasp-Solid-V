@@ -9,8 +9,12 @@ using System.Collections.Generic;
 
 namespace Full_GRASP_And_SOLID
 {
+    /// <summary>
+    /// Cambiado por DIP
+    /// </summary>
     public class Recipe: IRecipeContent
     {
+
         // Cambiado por OCP
         private IList<BaseStep> steps = new List<BaseStep>();
 
